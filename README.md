@@ -82,12 +82,12 @@ $ npm run serve:spa-hmr
 # start the server (Angular Universal)
 $ npm run serve
 
-# watch mode (build, and then HMR and test watch)
+# watch mode (build,  HMR and test watch)
 $ npm run serve:watch
 ```
 
-Navigate to `http://localhost:1337` for **lean Angular** (*client-side rendering*) and `http://localhost:8000` for **Angular
-Universal** (*server-side rendering*) in your browser
+Navigate to `http://localhost:1337` (*client-side rendering*) and `http://localhost:8000` for **Angular
+Universal** (*server-side rendering*) in browser
 
 
 [Angular]: https://angular.io
