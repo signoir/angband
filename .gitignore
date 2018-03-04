@@ -1,13 +1,15 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+﻿# See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/dist-server
-/tmp
-/out-tsc
+/.cache
+/.server
+!.server/spa-server*.js
+/.temp
+/docs
+/public
 
 # dependencies
-/node_modules
+node_modules/
 
 # IDEs and editors
 /.idea
@@ -32,7 +34,9 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
+test-report.xml
 /typings
+yarn-error.log
 
 # e2e
 /e2e/*.js
