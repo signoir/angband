@@ -8,27 +8,14 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
     "importHelpers": true,
+    "outDir": "../out-tsc/app",
     "baseUrl": ".",
     "paths": {
+      "~/*": ["./src/*"],
       "e2e-config": ["./tools/test/nightmare.config.ts"]
     },
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2017",
-      "dom"
-    ]
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"]
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "angularCompilerOptions": {
-    "genDir": ".",
-    "skipMetadataEmit": true
-  },
-  "awesomeTypescriptLoaderOptions": {
-    "usePrecompiledFiles": true,
-    "useWebpackText": true
-  }
+  "include": ["src/**/*.ts"]
 }
