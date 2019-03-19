@@ -22,9 +22,9 @@
         "culture": "en-US"
       },
       {
-        "code": "tr",
-        "name": "Türkçe",
-        "culture": "tr-TR"
+        "code": "id",
+        "name": "Indonesia",
+        "culture": "id-ID"
       }
     ],
     "useLocalizedRoutes": true
