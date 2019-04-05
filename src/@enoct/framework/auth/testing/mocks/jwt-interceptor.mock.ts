@@ -1,8 +1,3 @@
-/*
- * Copyright(c) 2019. All rights reserved.
- * Last modified 3/4/19 10:56 AM
- */
-
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { flow, get } from 'lodash/fp';
